@@ -4,8 +4,6 @@ const {getAllBooks} = require('./db_operations');
 
 const app = express();
 
-
-
 app.get("/", (req, res) => {
     res.json("Hello, this is the backend");
 });

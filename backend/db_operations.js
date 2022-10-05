@@ -20,6 +20,7 @@ const getAllBooks = () => {
             return resolve(data);
         });
     });
+    //below code works if we don't use promise
     /*
     db.query(showQuery, (err, data) => {
         if(err) {
